@@ -28,7 +28,7 @@ pipeline{
         }
         stage("Build Application"){
             steps{
-                sh "mvn clean package -f pom.xml"
+                sh "mvn clean package -f webapp/pom.xml -pl . -am"
             }
         }
         stage("Test Application"){
