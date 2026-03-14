@@ -28,7 +28,9 @@ pipeline{
         }
         stage("Build Application"){
             steps{
-                sh "mvn clean package -f webapp/pom.xml -pl . -am"
+                dir('/home/ubuntu/workspace/register-app-ci'){
+                    sh "mvn clean package"
+                }
             }
         }
         stage("Test Application"){
