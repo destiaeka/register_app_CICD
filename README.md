@@ -35,7 +35,7 @@
 
 <img width="1272" alt="SonarQube" src="https://github.com/MSFaizi/register_app_CICD/assets/102685509/b91eb583-57dd-47e7-965d-df867a15f00a">
 
-Read complete setup article here: https://dev.to/msfaizi/real-time-devops-project-deploy-to-kubernetes-using-jenkins-end-to-end-devops-project-cicd-3eh3
+Read complete setup article here: https://dev.to/msfaizi/real-time-devops-project-deploy-to-kubernetes-using-jenkins-end-to-end-devops-project-cicd-3eh3.
 
 
 
